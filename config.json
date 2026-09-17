@@ -1,0 +1,310 @@
+{
+  "precios": {
+    "Primera Mano 1lts": 7608,
+    "Primera Mano 4lts": 30440,
+    "Cemento Blanco 1.5kg": 6484,
+    "Sellador Epoxi 0.5lts": 14928,
+    "Sellador Epoxi 1lts": 20060,
+    "Sellador Epoxi 4lts": 80236,
+    "Sellador Epoxi 0.5lts Color": 17912,
+    "Sellador Epoxi 1lts Color": 21760,
+    "Sellador Epoxi 4lts Color": 86660,
+    "Promotor de adhesión 0.5lts": 16784,
+    "Policem 35kg": 66912,
+    "Texxor Therm 4lts": 47440,
+    "Texxor Therm 24lts": 249600,
+    "Texxor Therm 4lts Color": 52464,
+    "Texxor Therm 24lts Color": 280176,
+    "Porcelanato 750gr": 31064,
+    "Porcelanato 1.5kg": 43680,
+    "Porcelanato 6kg": 174720,
+    "Porcelanato 30kg": 742564,
+    "Porcelanato Blanco/Negro 1.5kg": 48924,
+    "Porcelanato Blanco/Negro 6kg": 195688,
+    "Poliurea Alto Espesor 1.5kg": 39604,
+    "Poliurea Alto Espesor 6kg": 158404,
+    "Poliurea Bajo Espesor 900gr": 22880,
+    "Poliurea Bajo Espesor 3.6kg": 91520,
+    "Chips Epoxi 500gr": 8452,
+    "Epoxi con Arena 20kg": 284592,
+    "Poliurea Fría Noroo 20kg": 430000,
+    "Chips Epoxi 2kg": 33795
+  },
+  "params": {
+    "sellador": {
+      "rendimiento": 10
+    },
+    "texxor_therm": {
+      "imprimacion_rendimiento": 10,
+      "cemento_ratio": 0.3,
+      "promotor_rendimiento": 10,
+      "rendimiento_material": 1,
+      "rendimiento_chapa": 1.2,
+      "lata_grande": 24,
+      "lata_chica": 4,
+      "manos": 1
+    },
+    "policem": {
+      "imprimacion_rendimiento": 12,
+      "cemento_ratio": 0.3,
+      "rendimiento": 8,
+      "manos": 1
+    },
+    "porcelanato_transp": {
+      "Porcelanato 30kg": [
+        30,
+        40
+      ],
+      "Porcelanato 6kg": [
+        6,
+        8
+      ],
+      "Porcelanato 1.5kg": [
+        1.5,
+        2.2
+      ],
+      "Porcelanato 750gr": [
+        0.75,
+        1.1
+      ]
+    },
+    "porcelanato_color": {
+      "Porcelanato Blanco/Negro 6kg": [
+        6,
+        8
+      ],
+      "Porcelanato Blanco/Negro 1.5kg": [
+        1.5,
+        2.2
+      ]
+    },
+    "poliurea_alto": {
+      "kg_por_m2": 0.75,
+      "lata_grande": 6,
+      "lata_chica": 1.5,
+      "manos": 1
+    },
+    "poliurea_bajo": {
+      "manos": 3,
+      "rendimiento": 8,
+      "lata_grande": 3.6,
+      "lata_chica": 0.9
+    },
+    "esquemas": {
+      "Texxor Therm": {
+        "imprimacion": "Primera Mano",
+        "manos_imprimacion": 1,
+        "manos_producto": 1,
+        "imprimaciones": [
+          {
+            "nombre": "Primera Mano",
+            "manos": 1
+          }
+        ],
+        "imprimaciones_color": []
+      },
+      "Policem": {
+        "imprimacion": "Primera Mano",
+        "manos_imprimacion": 1,
+        "manos_producto": 1,
+        "imprimaciones": [
+          {
+            "nombre": "Primera Mano",
+            "manos": 1
+          }
+        ],
+        "imprimaciones_color": []
+      },
+      "Porcelanato Líquido": {
+        "imprimacion": "Sellador Epoxi",
+        "manos_imprimacion": 1,
+        "manos_producto": 2,
+        "imprimaciones": [
+          {
+            "nombre": "Sellador Epoxi",
+            "manos": 1
+          }
+        ],
+        "imprimaciones_color": [
+          {
+            "nombre": "Sellador Epoxi",
+            "manos": 2
+          }
+        ]
+      },
+      "Poliurea Alto Espesor": {
+        "imprimacion": "Sellador Epoxi",
+        "manos_imprimacion": 1,
+        "manos_producto": 1,
+        "imprimaciones": [
+          {
+            "nombre": "Sellador Epoxi",
+            "manos": 1
+          }
+        ],
+        "imprimaciones_color": []
+      },
+      "Poliurea Bajo Espesor": {
+        "imprimacion": "Sellador Epoxi",
+        "manos_imprimacion": 1,
+        "manos_producto": 3,
+        "imprimaciones": [
+          {
+            "nombre": "Sellador Epoxi",
+            "manos": 1
+          }
+        ],
+        "imprimaciones_color": []
+      },
+      "Chips Epoxi": {
+        "imprimaciones": [],
+        "manos_producto": 1,
+        "imprimaciones_color": []
+      },
+      "Epoxi con Arena": {
+        "imprimaciones": [],
+        "manos_producto": 1,
+        "imprimaciones_color": []
+      },
+      "Poliurea Fría Noroo": {
+        "imprimaciones": [],
+        "manos_producto": 1,
+        "imprimaciones_color": []
+      }
+    },
+    "productos_custom": {
+      "Chips Epoxi": {
+        "rendimiento": 10,
+        "manos": 1,
+        "tiene_color": false
+      },
+      "Epoxi con Arena": {
+        "rendimiento": 10,
+        "manos": 1,
+        "tiene_color": false
+      },
+      "Poliurea Fría Noroo": {
+        "rendimiento": 10,
+        "manos": 1,
+        "tiene_color": false
+      }
+    },
+    "porcelanato": {
+      "rendimiento": 8
+    }
+  },
+  "calculadora_productos": {
+    "Texxor Therm": true,
+    "Policem": true,
+    "Porcelanato Líquido": true,
+    "Poliurea Alto Espesor": true,
+    "Poliurea Bajo Espesor": true,
+    "Chips Epoxi": true,
+    "Epoxi con Arena": true,
+    "Poliurea Fría Noroo": true,
+    "Porcelanato": true
+  },
+  "galeria_productos": {
+    "Chips Epoxi": false,
+    "Texxor Therm": true,
+    "Policem": true,
+    "Poliurea Fría Noroo": true,
+    "Epoxi con Arena": true,
+    "Porcelanato": true
+  },
+  "precios_m2": {
+    "Chips Epoxi": 8452,
+    "Texxor Therm": 16500,
+    "Policem": 8530,
+    "Poliurea Fría Noroo": 0,
+    "Epoxi con Arena": 22300,
+    "Porcelanato": 22700
+  },
+  "password": "texxor2024",
+  "info_productos": {
+    "Texxor Therm": {
+      "texto": "Regulador Térmico TEXXOR THERM (PVC y Metales): \nLa solución ideal para lograr un aislamiento térmico efectivo, aislar superficies de hasta 120° y ahorrar energía. Este recubrimiento funciona como una barrera avanzada que frena el flujo de calor, reduce la condensación y además protege contra la humedad y los ruidos.  \n\nAislamiento simple, seguro y no tóxico:\nSu aplicación es sumamente sencilla con pincel, rodillo o pistola, pudiendo aplicarse directamente sobre superficies metálicas o de PVC en caliente o en frío. Al reducir la temperatura superficial, previene accidentes por contacto y resuelve el aislamiento en zonas complejas donde los métodos tradicionales no pueden llegar.",
+      "fotos_urls": [
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/therm1.jpeg?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/therm2.jpeg?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/therm3.jpeg?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/therm4.jpeg?raw=true"
+      ],
+      "foto_url": "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/therm1.jpeg?raw=true",
+      "portada_url": "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/blob/main/protadax.png?raw=true",
+      "video_url": ""
+    },
+    "Policem": {
+      "texto": "Texxor Policem (Membrana Cementicia Flexible): \nLa solución definitiva en membranas cementicias flexibles para impermeabilizar y recuperar superficies. Este sistema bicomponente crea un revestimiento continuo, 100% transitable y altamente elástico, ideal para eliminar filtraciones y resolver problemas de humedad ascendente en pisos, techos, terrazas, sótanos y piscinas.\n\nMáxima resistencia y flexibilidad: Gracias a su formulación, soporta las dilatas de la estructura por cambios de temperatura sin rajarse ni quebrarse. Es fácil de aplicar con llana o rodillo y cuenta con protección UV, ofreciendo una base súper sólida que puede dejarse vista o recubrirse posteriormente con epoxi, porcelanato o membranas de terminación.",
+      "fotos_urls": [
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Policem%201.png?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Policem%202.png?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/policem3.jpeg?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Policem%204.png?raw=true"
+      ],
+      "foto_url": "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Policem%201.png?raw=true",
+      "portada_url": "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/blob/main/ChatGPT%20Image%2017%20sept%202026,%2015_07_00.png?raw=true",
+      "video_url": ""
+    },
+    "Poliurea Alto Espesor": {
+      "texto": "La poliurea de alto espesor es un recubrimiento \"Top Coat\" de base alifática diseñado para exteriores y aplicaciones en frío que exigen máxima resistencia. Destaca por su alta tolerancia a la abrasión, flexibilidad e impermeabilidad, además de curar rápidamente incluso a bajas temperaturas (2 °C). Sus características excepcionales le permiten resistir aceites, grasas calientes, lavados con vapor y temperaturas de hasta 140 °C, motivos por los cuales está aprobada para aplicarse en plantas de procesamiento de alimentos, cámaras de frío y pisos industriales.\n\nA diferencia de la versión anterior, este sistema se formula para dejar una capa robusta, con un rendimiento estimado de 750 gramos por metro cuadrado por mano. El esquema de trabajo recomendado consiste en una mano de fijador/sellador epoxi seguida de dos manos de la poliurea de alto espesor, las cuales pueden aplicarse con llana, rodillo, pincel o airless según el criterio del aplicador. La mezcla (relación 2:1) se recomienda preparar a unos 24 °C para facilitar su manipulación, logrando secar al tacto en apenas 45 minutos y habilitando el tránsito a las 24 horas.",
+      "fotos_urls": [],
+      "foto_url": "",
+      "portada_url": "",
+      "video_url": ""
+    },
+    "Poliurea Bajo Espesor": {
+      "texto": "Esta variante es una resina líquida bicomponente de poliurea aromática de aplicación en frío. Al curar, genera una membrana continua, elástica, completamente adherida al soporte, sin juntas ni solapes y 100% impermeable. Gracias a estas propiedades, resulta excelente tanto para obras nuevas como para rehabilitaciones en interiores y exteriores. Se utiliza habitualmente para proteger y sellar pisos, balcones, estanques, e incluso piscinas de cemento o venecitas en ambientes marinos.\n\nSu característica principal de \"bajo espesor\" radica en su modo de aplicación: tras aplicar un fijador epoxi sobre la superficie limpia y seca, se deben dar dos o tres manos de poliurea cuidando de no exceder los 140 gramos por m² en cada mano. El producto (con relación de mezcla 2 a 1) tiene un tiempo de trabajo de 20 minutos y se puede aplicar mediante pincel, rodillo o equipo airless. Su secado funciona en dos fases: primero evapora el solvente y luego la resina reacciona con el catalizador para endurecer definitivamente.",
+      "fotos_urls": [],
+      "foto_url": "",
+      "portada_url": "",
+      "video_url": ""
+    },
+    "Poliurea Fría Noroo": {
+      "texto": "Poliurea Fría NOROO PROTECH NP-200: \n\nLa solución definitiva para la impermeabilización y protección de pisos, techos y superficies. Su innovadora tecnología de aplicación en frío te permite aplicarla directamente con brocha o rodillo, eliminando por completo la necesidad de costosos equipos de pulverización. Es el producto ideal para quien busca la máxima resistencia con una instalación rápida y sin complicaciones.  \n\nDiseñada para resistir el paso del tiempo, esta capa protectora ofrece un rendimiento excepcional contra el agua, los impactos, el tráfico constante y la abrasión. Ya sea para renovar o proteger tu obra, NOROO PROTECH garantiza una durabilidad superior, protegiendo las estructuras y manteniendo impecable la apariencia de tus espacios.",
+      "fotos_urls": [
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/PoliureaNoroo1.png?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/PoliureaNoroo2.png?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/PoliureaNoroo3.png?raw=true",
+        "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/blob/main/poliureas%20locacion.png?raw=true"
+      ],
+      "foto_url": "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/PoliureaNoroo1.png?raw=true",
+      "portada_url": "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/blob/main/Nroo.png?raw=true",
+      "video_url": ""
+    },
+    "Chips Epoxi": {
+      "texto": "Escamas Decorativas para Pisos Epoxi: \n\nLa forma perfecta de transformar un piso común en un acabado de granito sintético de alta calidad y elegancia. Diseñadas para combinarse con pinturas y resinas, permiten crear infinitas combinaciones de colores para personalizar cualquier espacio, manteniendo intacta la calidad de la pintura base.\n\n\nMáxima durabilidad y resistencia: No solo aportan una estética increíble, sino que mejoran el rendimiento del piso ofreciendo una excelente resistencia al agua, al clima y al desgaste por uso constante. Son la opción ideal para garajes, almacenes, comercios y hogares que buscan un piso de alto impacto visual, súper resistente y con un mantenimiento mínimo a largo plazo.",
+      "fotos_urls": [
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Chips%201.jpeg?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Chips2.png?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/chips3.jpg?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Chips4.jpg?raw=true"
+      ],
+      "foto_url": "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Chips%201.jpeg?raw=true",
+      "portada_url": "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Chips%201.jpeg?raw=true",
+      "video_url": "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/raw/refs/heads/main/1_comprimido.mp4"
+    },
+    "Epoxi con Arena": {
+      "texto": "Epoxi con Arena Texxor: La combinación perfecta entre resistencia industrial y un diseño estético de alta calidad. Este revestimiento autonivelante incorpora arenas de colores ligeras que forman un piso continuo, sin juntas, con colores vibrantes y un acabado decorativo de textura fina.  Rendimiento extremo y fácil aplicación: Diseñado para un uso intensivo, es altamente resistente al desgaste, las manchas, el agua y el deslizamiento. De rápida preparación y secado, es ideal para transformar centros comerciales, cocheras, depósitos, oficinas y hogares que exigen máxima durabilidad y elegancia.",
+      "fotos_urls": [
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/epoxi%20con%20arena2.png?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/epoxi%20con%20arena%203.jpeg?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/epoxi%20con%20arena%204.jpeg?raw=true",
+        "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/Epoxi%20con%20arena.png?raw=true"
+      ],
+      "foto_url": "https://github.com/Texxor-Pinturas/Im-genes-para-app/blob/main/epoxi%20con%20arena2.png?raw=true",
+      "portada_url": "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/blob/main/arenax.png?raw=true",
+      "video_url": ""
+    },
+    "Porcelanato": {
+      "texto": "El porcelanato líquido de Texxor es un sistema epoxi bicomponente de alto brillo diseñado tanto para las exigencias del sector industrial como para hogares, oficinas y laboratorios. Destaca por su excelente resistencia a los impactos, la abrasión, los lavados a presión y temperaturas de hasta 120 °C. Es un producto de secado rápido, bajo olor y bajos niveles de VOC que, una vez aplicado con llana, pincel corto o soplete, genera una película no tóxica avalada por normas USDA para el contacto incidental con alimentos. Se puede aplicar sobre pisos nuevos o tratados, tiene una vida útil de mezcla de 4 horas y ofrece un acabado brillante disponible en versión transparente o colores de la carta RAL.\n\nAdemás de su uso tradicional en pisos de alto tránsito, Texxor adapta este material para proyectos decorativos y renovaciones específicas. Su tienda comercializa kits completos de porcelanato líquido pensados exclusivamente para revestir mesas o mesadas, con rendimientos que cubren superficies de 2.2 m² y hasta 4.5 m². Esta oferta se complementa con variantes estéticas y funcionales como el epoxi cristal (o vidrio líquido) y opciones de acabado \"Brillo Top\" con efecto mojado, llevando la resistencia extrema del ámbito industrial al diseño interior.",
+      "fotos_urls": [
+        "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/blob/main/porcelanato.png?raw=true"
+      ],
+      "foto_url": "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/blob/main/porcelanato.png?raw=true",
+      "portada_url": "https://github.com/ideasylaburos/Imagenes-para-App-de-texxor/blob/main/porcelanato.png?raw=true",
+      "video_url": ""
+    }
+  },
+  "closer_phone": "5491151629403"
+}
